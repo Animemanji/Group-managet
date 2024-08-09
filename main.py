@@ -1,5 +1,6 @@
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
-from telegram import ChatPermissions
+from telegram import ChatPermissions 
+import os
 
 # Default welcome message and rules
 WELCOME_MESSAGE = "Welcome to the group!"
